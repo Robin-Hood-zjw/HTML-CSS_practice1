@@ -1,0 +1,113 @@
+* {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+ul li {
+  margin: 0.25% auto;
+  list-style: none;
+  text-align: justify;
+  padding: 0% 35% 1% 35%;
+}
+
+.profile {
+  margin: 0;
+  min-height: 25%;
+  position: relative;
+  border-top: 3px solid rgb(228, 78, 135);
+  opacity: 90%;
+  background-image: url(../imgs/profile_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profile_title1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#profile_title2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.profile h1,
+.profile h2,
+.profile_img {
+  opacity: 100%;
+  color: white;
+  margin: 1% auto;
+  padding: 5% auto;
+}
+
+.profile_img {
+  width: 10%;
+  padding: 0.5% auto 0.5% auto;
+}
+
+.description h2,
+.description p {
+  margin: 5% auto 5% auto;
+  padding: 3% auto 3% auto;
+}
+
+.description h2 {
+  font-size: 2em;
+}
+.description p {
+  font-size: 1.5em;
+}
+.description p a {
+  color: rgba(64, 186, 186, 0.857);
+  text-decoration: underline;
+}
+.description p a:hover {
+  color: rgba(32, 109, 109, 0.857);
+  background-color: rgb(238, 238, 238);
+  box-shadow: rgba(112, 110, 110, 0.405);
+  text-shadow: whitesmoke;
+  text-decoration: none;
+}
+
+.skills {
+  color: white;
+  background: rgb(228, 78, 135);
+  margin: 3% auto 3% auto;
+}
+.skills h2,
+.skills p,
+.skills ul {
+  margin: 2% auto 2% auto;
+  padding: 0.2%;
+}
+
+.skills h2 {
+  font-size: 2em;
+}
+.skills p,
+.skills ul {
+  font-size: 1.5em;
+}
+
+.media {
+  margin: 3% auto 5% auto;
+}
+.media h2 {
+  font-size: 2em;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.logo img {
+  width: 4.5%;
+  height: auto;
+  margin: 3% 5%;
+  border-radius: 100%;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2), 3px 3px 0 rgba(0, 0, 0, 0.19);
+}
