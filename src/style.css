@@ -2,63 +2,61 @@
   font-family: "Lobster", cursive;
   text-align: center;
 }
-
 body {
   margin: 0;
 }
-
 ul li {
   margin: 0.25% auto;
-  list-style: none;
   text-align: justify;
-  padding: 0% 35% 1% 35%;
+  padding: 0% 35%;
 }
 
 .profile {
-  margin: 0;
-  min-height: 25%;
-  position: relative;
-  border-top: 3px solid rgb(228, 78, 135);
   opacity: 90%;
+  margin: 0;
+  padding: 5%;
+  position: relative;
+  border-top: 5px solid rgb(228, 78, 135);
   background-image: url(../imgs/profile_background.jpg);
+  background-color: rgba(0, 0, 0, 0.75);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-#profile_title1 {
-  font-size: 3em;
-  font-weight: bold;
-}
-#profile_title2 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
 .profile h1,
-.profile h2,
-.profile_img {
+.profile img,
+.profile h2 {
   opacity: 100%;
   color: white;
   margin: 1% auto;
   padding: 5% auto;
 }
-
-.profile_img {
-  width: 10%;
-  padding: 0.5% auto 0.5% auto;
+.profile h1 {
+  font-size: 500%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.profile img {
+  width: 175px;
+  border-radius: 100%;
+  border: 8px solid whitesmoke;
+}
+.profile h2 {
+  font-size: 300%;
 }
 
+.description {
+  margin: 0;
+  padding: 2%;
+}
 .description h2,
 .description p {
-  margin: 5% auto 5% auto;
-  padding: 3% auto 3% auto;
+  padding: 2% auto;
 }
-
 .description h2 {
-  font-size: 2em;
+  font-size: 350%;
 }
 .description p {
-  font-size: 1.5em;
+  font-size: 200%;
 }
 .description p a {
   color: rgba(64, 186, 186, 0.857);
@@ -73,30 +71,29 @@ ul li {
 }
 
 .skills {
+  margin: 0;
   color: white;
+  padding: 2%;
   background: rgb(228, 78, 135);
-  margin: 3% auto 3% auto;
 }
 .skills h2,
-.skills p,
-.skills ul {
-  margin: 2% auto 2% auto;
-  padding: 0.2%;
+.skills_list {
+  font-size: 300%;
 }
-
-.skills h2 {
-  font-size: 2em;
+.skills_list {
+  font-size: 150%;
+  text-align: left;
 }
-.skills p,
-.skills ul {
-  font-size: 1.5em;
+.skills_list p {
+  font-size: 180%;
 }
 
 .media {
-  margin: 3% auto 5% auto;
+  margin: 0;
+  padding: 1%;
 }
 .media h2 {
-  font-size: 2em;
+  font-size: 300%;
 }
 
 .logo {
@@ -105,9 +102,10 @@ ul li {
 }
 
 .logo img {
-  width: 4.5%;
+  width: 60px;
   height: auto;
-  margin: 3% 5%;
+  margin: 2% 50px;
+  border: 5px solid rgb(233, 233, 233);
   border-radius: 100%;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2), 3px 3px 0 rgba(0, 0, 0, 0.19);
 }
